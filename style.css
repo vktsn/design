@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+iframe {
+	max-width: 100%;
+	float: left;
+}
+
+a, *:hover {
+	text-decoration: none;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+body {
+	background-color: #dad6cb;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+
+/*шапка*/
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #46433e;
+}
+header span#other {
+	float: right;
+	width: 40%;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+header div#logo {
+	float: left;
+	margin-left: 10%;
+}
+
+/*статьи */
+
+article {
+	width: 100%;
+	background-color: #fff;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+article img {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+article a {
+	float: left;
+	color: #6f3fad; 
+	font-size: 1.0em
+}
+
+article span {
+	float: right;
+	color: #7c7c7c;
+	font-size: 1.0em
+}
+
+@media (min-width: 1000px) {
+	#Col {
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-left: 10%;
+		float: left;
+		columns: 3;
+		column-gap: 30px;
+	}
+
+	article h2 {
+		font-size: 1.2em;
+		color: #3d3d3d;
+		width: 90%;
+		margin-left: 5%;
+		float: left;
+	}
+
+	article p {
+		font-size: 1em;
+		color: #3d3d3d;
+		width: 85%;
+		margin: 2% 7%;
+		float: left;
+	}
+		
+	header span#other a {
+		color: white;
+		float: right;
+		margin-left: 10%;
+		font-size: 1.3em;
+		line-height: 30px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+	#Col {
+		width: 90%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-left: 5%;
+		float: left;
+		columns: 2;
+		column-gap: 30px;
+	}
+
+	article h2 {
+		font-size: 1.3em;
+		color: #3d3d3d;
+		width: 90%;
+		margin-left: 5%;
+		float: left;
+	}
+
+	article p {
+		font-size: 1.1em;
+		color: #3d3d3d;
+		width: 85%;
+		margin: 2% 7%;
+		float: left;
+	}
+
+	header a#logo {
+		font-size: 1.7em;
+		color: white;
+		float: left;
+		width: 15%;
+		margin-top: 10px;
+		margin-left: 15%;
+	}
+
+	header span#other {
+		float: right;
+		width: 60%;
+		margin-right: 10%;
+	}
+	
+	
+	header span#other a {
+		color: white;
+		float: right;
+		margin-left: 10%;
+		font-size: 1.3em;
+		line-height: 50px;
+	}
+	article img {
+		width: 100%;
+		float: center;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 699px) {
+	#Col {
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		float: left;
+	}
+
+	article h2 {
+		font-size: 1.4em;
+		color: #3d3d3d;
+		width: 90%;
+		margin-left: 5%;
+		float: left;
+	}
+
+	article p {
+		font-size: 1.2em;
+		color: #3d3d3d;
+		width: 85%;
+		margin: 2% 7%;
+		float: left;
+	}
+
+
+	header span#other a {
+		color: white;
+		float: right;
+		margin-left: 10%;
+		font-size: 1.3em;
+		line-height: 50px;
+	}
+
+	article img {
+		width: 100%;
+		float: center;
+		margin-bottom: 10px;
+	}
+	
+}
+
+#Page {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 0%;
+	float: left;
+}
+
+about {
+	width: 100%;
+	float: left;
+}
+
+about img {
+	width: 95%;
+	float: left;
+}
+
+about a {
+	float: left;
+	color: #6f3fad; 
+	font-size: 1.0em
+}
+
+about p {
+	font-size: 1.3em;
+	color: #3d3d3d;
+	width: 85%;
+	margin: 2% 7%;
+	float: left;
+	text-align: justify;
+}
+
+#Breed {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	float: left;
+}
+
+short {
+	width: 100%;
+	float: left;
+}
+
+short img {
+	width: 100%;
+	float: left;
+	
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+short a {
+	float: left;
+}
+
+short p {
+	font-size: 1.3em;
+	color: #3d3d3d;
+	width: 100%;
+	float: left;
+	
+	line-height: 1.5;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+short h1 {
+	font-size: 1.6em;
+	color: #3d3d3d;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+}
+short h2 {
+	font-size: 1.4em;
+	color: #3d3d3d;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	float: left;
+	text-align: left;
+}
+
+short p1 {
+	font-size: 1.3em;
+	color: #3d3d3d;
+	width: 100%;
+	float: left;
+	line-height: 1.5;
+	margin-top: 2%;
+	text-align: justify;
+}
+
+#List {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	float: left;
+}
+
+list {
+	width: 100%;
+	float: left;
+}
+
+list img {
+	width: 100%;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+list a {
+	float: left;
+}
+
+list p {
+	font-size: 1.3em;
+	color: #3d3d3d;
+	width: 100%;
+	float: left;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+list h1 {
+	font-size: 1.6em;
+	color: #3d3d3d;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+	text-decoration: underline;
+}
+list h2 {
+	font-size: 1.4em;
+	color: #3d3d3d;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	float: left;
+	text-align: left;
+	text-decoration: underline;
+}
+
+list p1 {
+	font-size: 1.3em;
+	color: #3d3d3d;
+	width: 100%;
+	float: left;
+	line-height: 1.5;
+	margin-top: 2%;
+	text-align: justify;
+	text-decoration: underline;
+}
